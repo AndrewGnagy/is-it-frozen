@@ -1,0 +1,20 @@
+{
+  "name": "is-it-frozen",
+  "version": "1.0.0",
+  "description": "An app to know if it's frozen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ENVIRONMENT_LOCAL=true node index",
+    "serve": "node index"
+  },
+  "keywords": [
+    "lock"
+  ],
+  "author": "Andrew Gnagy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.2"
+  }
+}
